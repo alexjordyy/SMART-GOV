@@ -1,0 +1,17 @@
+.main {
+    background-color: rgb(245, 248, 246);
+    margin: 0%;
+    width: 220vh;   
+    
+}
+
+/* Page Inner Container */
+.page {
+    background-color: aliceblue;
+    margin: 2rem;
+    margin-top: 5rem;
+    padding: 2rem;
+    position: absolute;
+    width: 195vh;
+    border-radius: 2rem;
+}

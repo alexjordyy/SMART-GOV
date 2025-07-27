@@ -1,0 +1,56 @@
+.error-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url("../assets/images/bg.jpg"); /* Correct path to your image */
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+  }
+  
+  .card-error-page {
+    background: #fff; /* Semi-transparent background for contrast */
+    color: #ff4d4f;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+  }
+  
+  .error-code {
+    font-size: 4rem;
+    color: #ff4d4f;
+    margin: 0;
+  }
+  
+  .error-message {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .error-description {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #ff4d4f;
+  }
+  
+  .go-home {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .go-home:hover {
+    background-color: #0056b3;
+  }
+  
